@@ -1,0 +1,164 @@
+/* Use this when you are ready to make a media query style
+
+@media screen and (max-width: 768px) {
+  
+
+}  */
+
+*{
+    padding: 0pt;
+    margin: 0px;
+}
+
+.container{
+    background-color: white;
+    height: 600px;
+    display: flex;
+}
+
+.box{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
+
+.boxinfo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.container2{
+    padding-top: 2%;
+    background-color: white;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.boxarticle{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    padding: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+}
+
+.boxarticle img{
+    height: 100%;
+    width: 100%;
+    object-fit:scale-down;
+}
+
+.byline{
+    margin-bottom: 20%;
+    color: white;
+}
+
+.sectionhead{
+    font-size: 18px;
+    color: rgb(170, 0, 0);
+}
+
+.articlesectionhead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(170, 0, 0);
+    padding-top: 5%;
+}
+
+.articletitle{
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+    padding-bottom: 3%;
+}
+
+.articleline{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 2%;
+}
+
+h1{
+    font-size: 42px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+h2{
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .box{
+        background-color: gold;
+        height: 600px;
+        width: 50%;
+    }
+
+    .container{
+        background-color: darkseagreen;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .boxinfo{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .container2{
+        padding-top: 2%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxarticle{
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        padding: 3%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: left;
+    }
+}
